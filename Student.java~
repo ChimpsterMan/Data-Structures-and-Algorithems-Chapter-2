@@ -1,0 +1,20 @@
+class Student{
+  private String name;
+  private int idNum;
+  private int gpa;
+  
+  public Student(String name, int idNum, int gpa){
+    this.name = name;
+    this.idNum = idNum;
+    this.gpa = gpa;
+  }
+  
+  public Student deepCopy(){
+    Student node = new Student(name,idNum,gpa);
+    return node;
+  }
+  
+  public String to_string(){
+   return "Name: " + name + ", ID: " + idNum + ", GPA: " + gpa;
+  }
+}

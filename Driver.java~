@@ -1,0 +1,11 @@
+class Driver {
+  private School school;
+  
+  public class main(String args[]){
+    school = new School(10);
+    
+    for (int i = 0; i < 8; i++){
+      school.insert(i
+    }
+  }
+}
